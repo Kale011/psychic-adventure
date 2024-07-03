@@ -6,6 +6,10 @@ h1{
     text-align: center;
 }
 
+.superparent {
+    width: 100%;
+}
+
 .parent1, .parent2, .parent3 
 {
     border:3px solid black;
@@ -28,20 +32,20 @@ h1{
 
     position: absolute;
     right: 0px;
-    padding: 2px;
+    padding: 2.5px;
 }
 .mod2
 {
     padding-top: 25px;
     padding-bottom: 5px;
 }
-.col1{
+.chk{
     background-color:pink;
 }
-.col2{
+.fis{
     background-color:lightgreen;
 }
-.col3{
+.bee{
     background-color:orange;
 }
 
