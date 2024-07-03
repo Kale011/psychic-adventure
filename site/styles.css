@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+}
+
+.parent1, .parent2, .parent3 
+{
+    border:3px solid black;
+    background-color:gray;
+    width: auto;
+    float: left;
+    margin-left: 25px;
+    margin-top: 20px;
+
+    position: relative;
+
+}
+.name
+{
+    border-left:2px solid black;
+    border-bottom:2px solid black;
+    width: auto;
+    text-align: center;
+    font-weight: bold;
+
+    position: absolute;
+    right: 0px;
+    padding: 2px;
+}
+.mod2
+{
+    padding-top: 25px;
+    padding-bottom: 5px;
+}
+.col1{
+    background-color:pink;
+}
+.col2{
+    background-color:lightgreen;
+}
+.col3{
+    background-color:orange;
+}
+
+@media (min-width: 992px) {
+    .parent1, .parent2, .parent3 {
+        float: left;
+    }
+    .parent1 {
+        width: 30%;
+    }
+    .parent2 {
+        width: 30%;
+    }
+    .parent3 {
+        width: 30%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .parent1 {
+        width: 45%;
+    }
+    .parent2 {
+        width: 45%;
+    }
+    .parent3 {
+        width: 92.8%;
+    }
+}
+@media (max-width: 768px) {
+    .parent1 {
+        width: 92.8%;
+    }
+    .parent2 {
+        width: 92.8%;
+    }
+    .parent3 {
+        width: 92.8%;
+    }
+}
