@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>My Portfolio</title>
+		<link rel="stylesheet" href="style.css" />
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=display-width, initial-scale=1.0">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+
+	</head>
+	<body>
+
+		<div class="container">
+			<div class="intro">
+				<img class="profile-picture" src="images/Profile Pic.jpg"/>
+				<h1 id="myname">Kale Danders</h1>
+				<h3>Web developer | Tech Guru</h3>
+				<p>{{ pause and ponder }}</p>
+			</div>
+
+			<hr/>
+
+			<div class="about-grid">
+				<div class="iam" >
+					<h3>I   AM</h3>
+					<ul class="about-list">
+						<li class="about-list-item">An Engineer</li>
+						<li class="about-list-item">A Golfer</li>
+						<li class="about-list-item">A Cool Guy</li>
+					</ul>
+				</div>
+				<div class="ilike">
+					<h3>I   LIKE   TO</h3>
+					<ul class="about-list">
+						<li class="about-list-item">Play Golf</li>
+						<li class="about-list-item">Game</li>
+						<li class="about-list-item">Eat Tacos</li>
+					
+					</ul>
+				</div>
+			</div>
+
+			<hr/>
+
+			<div>
+				<h3 class="projects-heading">My Projects</h3>
+				<div class="projects-grid">
+					<div class="project-image-wrapper">
+						<img class="project-image" src="Images/Puppies.jpg" onclick="window.location.href = 'Cat Site/cats.html';" />
+						<h4>Project 1</h4>
+					</div>
+					<div class="project-image-wrapper">
+						<img class="project-image2" src="Images/Golf.jpg" onclick="window.location.href = 'Cafe CSS/cafe.html';" />
+						<h4>Project 2</h4>
+					</div>
+					<div class="project-image-wrapper">
+						<img class="project-image3" src="Images/Lighting.jpg" />
+						<h4>Project 3</h4>
+					</div>
+					<div class="project-image-wrapper">
+						<img class="project-image4" src="Images/Moon.jpg" />
+						<h4>Project 4</h4>
+					</div>
+				</div>
+			</div>
+
+			<hr/>
+
+			<div class="links-contact">
+				<div class="links">
+					<h3>Links</h3>
+					<ul class="links-list">
+						<li>
+							<a href="https://github.com/Kale011">Github</a>
+						</li>
+						<li>
+							<a href="https://www.linkedin.com/in/kale-danders/">Linkedin</a>
+						</li>
+					</ul>
+				</div>
+
+				<div>
+					<form action="#">
+						<label for="email">
+							<h4>Email</h4>
+								<input id="email" placeholder="Enter your email" />
+						</label>
+						<label for="message">
+							<h4>Message</h4>
+								<textarea id="message" placeholder="Start Typing..."></textarea>
+						</label>
+						<div class="submit-button-wrapper">
+							<input id="submit-button" type="submit" value="Send Message">
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<script src="script.js"></script>
+	</body>
+</html>
+
+	
